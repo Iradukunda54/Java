@@ -380,7 +380,7 @@ public class ConsoleMenu {
                 case 1 -> addUser();
                 case 2 -> viewAllUsers();
             }
-        } while (choice != 3);
+        } while (choice != 3); // while loop
     }
 
     private void addUser() {

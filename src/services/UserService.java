@@ -11,6 +11,7 @@ public class UserService {
 
     public UserService() {
         users = new User[5];
+
         userCount = 0;
         // NO SAMPLE DATA – start empty
     }
