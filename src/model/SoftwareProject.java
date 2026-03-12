@@ -13,12 +13,16 @@ public class SoftwareProject extends Project {
         return "Software Project: " + getName() + " | Language: " + programmingLanguage;
     }
 
-    // *** FIXED: now public ***
+
     @Override
     public String getProjectType() {
         return "Software";
     }
 
-    public String getProgrammingLanguage() { return programmingLanguage; }
-    public void setProgrammingLanguage(String programmingLanguage) { this.programmingLanguage = programmingLanguage; }
+    public String getProgrammingLanguage() {
+        return programmingLanguage;
+    }
+    public void setProgrammingLanguage(String programmingLanguage) {
+        this.programmingLanguage = programmingLanguage;
+    }
 }
