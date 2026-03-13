@@ -15,11 +15,21 @@ public class StatusReport {
         this.completionPercentage = (totalTasks == 0) ? 0 : (completedTasks * 100.0 / totalTasks);
     }
 
-    public String getProjectId() { return projectId; }
-    public String getProjectName() { return projectName; }
-    public int getTotalTasks() { return totalTasks; }
-    public int getCompletedTasks() { return completedTasks; }
-    public double getCompletionPercentage() { return completionPercentage; }
+    public String getProjectId() {
+        return projectId;
+    }
+    public String getProjectName() {
+        return projectName;
+    }
+    public int getTotalTasks() {
+        return totalTasks;
+    }
+    public int getCompletedTasks() {
+        return completedTasks;
+    }
+    public double getCompletionPercentage() {
+        return completionPercentage;
+    }
 
     @Override
     public String toString() {

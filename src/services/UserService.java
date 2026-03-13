@@ -13,7 +13,7 @@ public class UserService {
         users = new User[5];
 
         userCount = 0;
-        // NO SAMPLE DATA – start empty
+
     }
 
     public void addUser(User user) {

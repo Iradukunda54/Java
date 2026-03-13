@@ -244,7 +244,7 @@ public class ConsoleMenu {
         } while (true);
     }
 
-    // ** UPDATED: addTask with better project validation **
+
     private void addTask() {
         // First check if there are any projects
         Project[] allProjects = projectService.getAllProjects();
@@ -263,7 +263,7 @@ public class ConsoleMenu {
             return;
         }
         String taskName = ValidationUtils.readNonEmptyString("Task Name: ");
-        // Check duplicate
+
         for (Task t : project.getTasks()) {
             if (t.getName().equalsIgnoreCase(taskName)) {
                 System.out.println("Task with that name already exists.");
