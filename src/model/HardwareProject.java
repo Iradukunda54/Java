@@ -13,7 +13,7 @@ public class HardwareProject extends Project {
         return "Hardware Project: " + getName() + " | Hardware: " + hardwareType;
     }
 
-    // *** FIXED: now public ***
+
     @Override
     public String getProjectType() {
         return "Hardware";
