@@ -27,11 +27,25 @@ public class Task implements Completable {
     }
 
     // Getters and setters
-    public String getTaskId() { return taskId; }
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
-    public TaskStatus getStatus() { return status; }
-    public void setStatus(TaskStatus status) { this.status = status; }
-    public String getAssignedUserId() { return assignedUserId; }
-    public void setAssignedUserId(String assignedUserId) { this.assignedUserId = assignedUserId; }
+    public String getTaskId() {
+        return taskId;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public TaskStatus getStatus() {
+        return status;
+    }
+    public void setStatus(TaskStatus status) {
+        this.status = status;
+    }
+    public String getAssignedUserId() {
+        return assignedUserId;
+    }
+    public void setAssignedUserId(String assignedUserId) {
+        this.assignedUserId = assignedUserId;
+    }
 }

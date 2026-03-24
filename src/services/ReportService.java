@@ -25,9 +25,15 @@ public class ReportService {
         int pending = 0;
         for (Task t : tasks) {
             switch (t.getStatus()) {
-                case COMPLETED: completed++; break;
-                case IN_PROGRESS: inProgress++; break;
-                case PENDING: pending++; break;
+                case COMPLETED:
+                    completed++;
+                    break;
+                case IN_PROGRESS:
+                    inProgress++;
+                    break;
+                case PENDING:
+                    pending++;
+                    break;
             }
         }
         System.out.println("=== Completion Report for Project: " + project.getName() + " ===");

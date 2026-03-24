@@ -94,13 +94,31 @@ public abstract class Project {
     }
 
     // Getters and setters
-    public String getProjectId() { return projectId; }
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
-    public String getDescription() { return description; }
-    public void setDescription(String description) { this.description = description; }
-    public double getBudget() { return budget; }
-    public void setBudget(double budget) { this.budget = budget; }
-    public int getTeamSize() { return teamSize; }
-    public void setTeamSize(int teamSize) { this.teamSize = teamSize; }
+    public String getProjectId() {
+        return projectId;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getDescription() {
+        return description;
+    }
+    public void setDescription(String description) {
+        this.description = description;
+    }
+    public double getBudget() {
+        return budget;
+    }
+    public void setBudget(double budget) {
+        this.budget = budget;
+    }
+    public int getTeamSize() {
+        return teamSize;
+    }
+    public void setTeamSize(int teamSize) {
+        this.teamSize = teamSize;
+    }
 }
